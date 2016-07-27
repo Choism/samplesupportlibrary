@@ -15,7 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TabLayoutActivity"></activity>
+        <activity android:name=".TabLayoutActivity" />
+        <activity android:name=".TapPagerActivity" />
+        <activity android:name=".TextInputActivity" />
+        <activity android:name=".FABActivity" />
+        <activity android:name=".AppBarActivity" />
+        <activity android:name=".CollapsingActivity" />
+        <activity android:name=".DrawerActivity" />
+        <activity android:name=".NavigationDrawerActivity" />
+        <activity android:name=".CustomnavigationActivity"></activity>
     </application>
 
 </manifest>
