@@ -31,7 +31,7 @@ public class MessageFragment extends Fragment {
 
 
     // TODO: Rename and change types and number of parameters
-    public static MessageFragment newInstance(String param1, String param2) {
+    public static MessageFragment newInstance(String param1) {
         MessageFragment fragment = new MessageFragment();
         Bundle args = new Bundle();
         args.putString(ARG_MESSAGE, param1);
@@ -57,4 +57,8 @@ public class MessageFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
 }
